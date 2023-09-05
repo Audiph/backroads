@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SocialLink = ({ href, icon }) => {
+const SocialLink = ({ href, icon, itemClass }) => {
   return (
     <li>
-      <a href={href} target="_blank" rel="noopener" className="nav-icon">
+      <a href={href} target="_blank" rel="noopener" className={itemClass}>
         <i className={icon}></i>
       </a>
     </li>
